@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+.App {
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.p-datatable .p-datatable-thead > tr > th {
+  background-color: #f8f9fa;
+  font-weight: 600;
+}
+
+.p-datatable .p-datatable-tbody > tr {
+  transition: background-color 0.2s;
+}
+
+.p-datatable .p-datatable-tbody > tr:hover {
+  background-color: #f0f8ff !important;
+}
+
+.p-datatable .p-datatable-tbody > tr.row-selected {
+  background-color: #e3f2fd !important;
+}
+
+.p-button {
+  font-weight: 500;
+}
+
+.p-toolbar {
+  background-color: white;
+  border-radius: 6px;
+  padding: 1rem;
+}
+
+.p-card {
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+  .App {
+    padding: 10px;
+  }
+  
+  .p-toolbar .p-button {
+    margin-bottom: 5px;
+  }
+}
